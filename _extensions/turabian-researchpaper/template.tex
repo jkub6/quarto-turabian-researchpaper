@@ -1,0 +1,35 @@
+$doc-class.tex()$
+
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes, ellipsis}
+
+% Specify paper size with geometry package
+\usepackage[pass, letterpaper]{geometry}
+
+% For citations, use the biblatex-chicago package
+\usepackage{biblatex-chicago}
+\addbibresource{bibliography.bib}
+
+% pandoc.tex()
+
+$title.tex()$
+
+
+\begin{document}
+$before-body.tex()$
+$toc.tex()$
+
+$body$
+
+Here is another sentence\footnote{A citation for the quoted material.}
+
+A final sentence \autocite[34]{CameronTrivedi2013}
+
+$before-bib.tex()$
+
+$biblio.tex()$
+
+$after-body.tex()$
+
+\end{document}
+

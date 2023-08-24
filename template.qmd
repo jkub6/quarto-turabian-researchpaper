@@ -1,0 +1,19 @@
+---
+title: Turabian-researchpaper Template
+subtitle: This is the Subtitle
+author: Jacob Larkin
+course: 'OT501: Old Testament Survey 1'
+date: today
+format:
+  turabian-researchpaper-pdf:
+    keep-tex: true  
+bibliography: bibliography.bib  
+---
+
+
+## Introduction {#sec-introduction}
+
+*TODO* Create a template that demonstrates the appearance, formatting, layout, and functionality of your format. Learn more about journal formats at <https://quarto.org/docs/journals/>.
+
+Here is another sentence than has a citation by [@CameronTrivedi2013]
+one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen ninteet twenty

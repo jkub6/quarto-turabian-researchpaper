@@ -1,0 +1,26 @@
+title: Turabian-researchpaper
+author: Jacob Larkin
+version: 1.0.0
+quarto-required: ">=99.9.0"
+contributes:
+  formats:
+    common:
+      date-format: long
+      toc: true
+      filters:
+        - turabian-researchpaper.lua
+      # csl: turabian-author-date.csl
+    pdf:
+      cite-method: biblatex
+      # template: template.tex
+      template-partials:
+        - partials/doc-class.tex
+        - partials/title.tex
+        - partials/before-body.tex
+        - partials/after-body.tex
+        # - partials/toc.tex
+        - partials/before-bib.tex
+        # - partials/biblio.tex
+      include-in-header:
+        - include-in-header.tex
+
